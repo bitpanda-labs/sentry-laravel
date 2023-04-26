@@ -93,6 +93,9 @@ class Middleware
      * @param float|null $timestamp The unix timestamp of the booted event, default to `microtime(true)` if not `null`.
      *
      * @return void
+     * @internal This method should only be invoked right after the application has finished "booting":
+     *           For Laravel this is from the application `booted` callback.
+     *           For Lumen this is right before returning from the `bootstrap/app.php` file.
      *
      * @internal This method should only be invoked right after the application has finished "booting".
      */

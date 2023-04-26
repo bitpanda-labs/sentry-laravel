@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Readd support for Laravel Lumen (#579)
+
 ## 3.3.3
 
 The Sentry SDK team is happy to announce the immediate availability of Sentry Laravel SDK v3.3.3.
@@ -247,7 +251,7 @@ This release adds support for Laravel 10.
 - Update phpdoc on facade for better IDE autocompletion (#504)
 - Exceptions captured using log channels (Monolog) will now have the correct severity set (#505)
 - Tags passed through log channels (Monolog) context are cast as string to prevent type errors (#507)
-- Add options to the `artisan sentry:publish` command to better support `--no-interaction` mode (#509) 
+- Add options to the `artisan sentry:publish` command to better support `--no-interaction` mode (#509)
 
 ## 2.7.0
 
