@@ -1,5 +1,5 @@
 {
-    "name": "bitpanda-labs/sentry-laravel",
+    "name": "sentry/sentry-laravel",
     "type": "library",
     "description": "Laravel SDK for Sentry (https://sentry.io)",
     "keywords": [
@@ -80,7 +80,7 @@
         }
     },
     "prefer-stable": true,
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "config": {
         "allow-plugins": {
             "kylekatarnls/update-helper": false
